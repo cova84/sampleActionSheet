@@ -49,7 +49,6 @@ class ViewController: UIViewController {
             style: .destructive,
             handler: {action in self.Destructive(name: "痛いけどいいの？！")}))
         
-        
         //キャンセルボタンを追加
         actionSheet.addAction(UIAlertAction(
             title: "今日はやめとく〜",
